@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FlexBox</title>
+  <style>
+  .info{
+    width: 300px;
+  }
+    
+    .flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+  
+    }
+    .notification{
+      width: 20px;
+      border-radius: 15px;
+      background-color: rgb(49, 109, 245);
+      color: white;
+      padding-top: 3px;
+      padding-bottom: 3px;
+      padding-left: 10px;
+      padding-right: 10px;
+      border-radius: 20px;
+      font-size: 14px;
+      font-weight: bold;
+      text-align: center;
+     
+    }
+    
+  </style>
+  
+</head>
+<body>
+<div style="display: flex;
+flex-direction: row;">
+ <div style="background-color: lightblue;
+ width: 200px;">
+  200px
+ </div>
+ <div style="background-color: lightpink; 
+ width: 75px;">
+  75px
+ </div>
+</div>
+
+<div style="display: flex;
+flex-direction: row;
+margin-top: 30px;">
+ <div style="background-color: lightblue;
+ width: 50px;">
+  item1
+ </div>
+ <div style="background-color: lightpink; 
+  flex: 1;">
+ item2
+ </div>
+ <div style="background-color: lightblue;
+ width: 75px;">
+  item3
+ </div>
+</div>
+
+
+<div style="display: flex;
+flex-direction: row;
+margin-top: 30px;
+justify-content: space-between; ">
+ <div style="background-color: lightblue;
+ width: 50px;">
+  item1
+ </div>
+ <div style="background-color: lightpink; 
+  width: 50px;">
+ item2
+ </div>
+ <div style="background-color: lightblue;
+ width: 50px;">
+  item3
+ </div>
+ <div style="background-color: lightpink;
+ width: 50px;">
+  item4
+ </div>
+</div>
+
+ <div style="display: flex;
+flex-direction: row;
+margin-top: 30px;
+height: 50px;
+justify-content: space-between; 
+align-items: center;
+ border: 1px; border-style: solid; border-color: grey;
+">
+ <div style="background-color: lightblue;
+ width: 50px;">
+  item1
+ </div>
+ <div style="background-color: lightpink; 
+  width: 50px;">
+ item2
+ </div>
+ </div>
+ ---------------------------------
+ <div class="info">
+    <div class="flexbox">
+      <div> Home</div>
+      <div class="notification">14</div>
+    </div>
+    <div class="flexbox">
+      <div>Nitification</div>
+      <div class="notification">3</div>
+    </div>
+    <div class="flexbox">
+      <div>Messages</div>
+      <div class="notification">5</div>
+  </div>
+  <br>
+
+ 
+</body>
+</html>

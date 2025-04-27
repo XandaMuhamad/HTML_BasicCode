@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+  .container_all{
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+  }
+  .left_section{
+    display: flex;
+   align-items: center;
+  
+  }
+  .hamburger{
+    height: 24px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .Youtube_logo{
+    height: 20px;
+  }
+.middle_section{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex:1;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 500px;
+
+ 
+}
+.search_bar{
+  height: 37px;
+  flex: 1;
+  width: 0;
+  border-radius: 2px;
+  padding-left: 12px;
+  font-size: 18px;
+  border-width: 1px;
+  border-style: solid;
+  outline: none;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+
+ 
+}
+.serach_btn{
+  height: 40px;
+  width: 60px;
+  background-color:rgb(240, 240, 240) ;
+  border-width: 1px;
+  border-style: solid;
+  border-color:rgb(192, 192, 192)  ;
+  margin-left: -1px;
+  margin-right: 10px;
+}
+.search_icon ,.voice_icon{
+height: 25px;
+margin-top: 4px;
+
+}
+.voice_btn{
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  background-color:rgb(240, 240, 240) ;
+  border: none;
+}
+.right_section{
+  width: 180px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+ justify-content: space-between;
+ flex-shrink: 0;
+ 
+}
+.upload{
+  height: 32px;
+}
+.youtube_apps{
+  height: 32px;
+}
+.notif{
+  height: 32px;
+}
+.channel_pic{
+  height: 32px;
+  height: 32px;
+  border: 16px;
+  margin-right: 20px;
+}
+
+
+
+
+  </style>
+ 
+</head>
+<body>
+  <div class="container_all">
+  <div class="left_section">
+    <img class="hamburger" src="Icons/hamburger-menu.svg">
+    <img class="Youtube_logo" src="Icons/youtube-logo.svg">
+  </div>
+  <div class="middle_section">
+    <input class="search_bar" type="text" placeholder="Search">
+    <button class="serach_btn">
+      <img class="search_icon" src="Icons/search.svg">
+    </button>
+    <button class="voice_btn">
+      <img class="voice_icon" src="Icons/voice-search-icon.svg">
+    </button>
+  </div>
+  <div class="right_section">
+    <img class="upload" src="Icons/upload.svg">
+    <img class="youtube_apps" src="Icons/youtube-apps.svg">
+    <img class="notif" src="Icons/notifications.svg">
+    <img class="channel_pic" src="profile_pic/my-channel.jpeg">
+
+  </div>
+  </div>
+  
+</body>
+</html>

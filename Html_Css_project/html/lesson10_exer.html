@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+   .cat_img{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    display: inline-block;
+    vertical-align: middle;
+  
+   }
+   .text{
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+    margin-top: 0;
+    margin-bottom: 0;
+   }
+   .cat_button{
+    display: inline-block;
+    margin-left: 100px;
+   }
+   button{
+    background-color: rgb(21, 111, 213);
+    color: white;
+    border: none;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-size: 15px;
+   }
+
+   .ol{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 4px;
+   }
+   .the{
+    margin-top: 0px;
+    margin-bottom: 4px;
+    color: grey;
+   }
+   .pop{
+    margin-top: 0px;
+    margin-bottom: 4px;
+    color: gray;
+   }
+   .show{
+    padding-left: 10px;
+    margin-top: 60px;
+    margin-left: 60px;
+    width: 320px;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.2);
+   }
+   .profile{
+    margin-top: 0px;
+    font-family: Arial;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+    width: 250px;
+    margin-bottom: 30px;
+    margin-right: 0px;
+  }
+  
+  .profile_pic{
+    width: 100%;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+   
+  }
+  .profile_name{
+    margin-top: 4px;
+    font-size: 22px;
+    font-weight: bold;
+    margin-left: 6px;
+    margin-bottom: 6px;
+  }
+  .frofile-friends{
+    font-size: 20px;
+    margin-top: 5px;
+    color: grey;
+    margin-bottom: 0px;
+    margin-left: 35px;
+    margin-top: 10px;
+   
+  }
+  .add_friends{
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-right: 30px;
+  padding-left: 30px;
+  background-color: rgb(24, 114, 193);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  margin-left: 6px;
+  font-size: 18px;
+  }
+
+  .friend_show{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+  }
+  .div_friend_show{
+    margin-left: 5px;
+  }
+ 
+  .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+
+  }
+.pic_grid{
+  display: grid;
+  grid-template-columns: 20px 1fr;
+}
+ 
+  </style>
+</head>
+<body>
+  
+  <div class="show">
+      <img class="cat_img" src="https://github.com/SuperSimpleDev/html-css-course-2022/blob/main/1-exercise-solutions/lesson-10/cat.jpg?raw=true">
+      <div class="text">
+       <p class="ol">Oliver</p>
+        <p class="the">The cat</p>
+        <p class="pop">popular</p>
+      </div>
+      <div class="cat_button">
+        <button>Follow</button>
+      </div>
+  </div>
+  <br>
+
+  <div class="grid">
+    <div class="profile">
+      <div>
+        <img class="profile_pic" src="https://github.com/SuperSimpleDev/html-css-course-2022/blob/main/1-exercise-solutions/lesson-09/cat.jpg?raw=true">
+        <p class="profile_name">
+          Oliver
+        </p>
+      </div>
+      <div class="pic_grid">
+        <div class="div_friend_show">
+          <img class="friend_show" src="https://github.com/SuperSimpleDev/html-css-course-2022/blob/main/1-exercise-solutions/lesson-10/cat2.jpg?raw=true">
+        </div>
+        <div class="info">
+          <p class="frofile-friends">2 mutual friends</p>
+        </div>
+      </div>
+      <button class="add_friends">Add Friend</button>
+    </div>
+
+    <div class="profile">
+      <div>
+        <img class="profile_pic" src="https://github.com/SuperSimpleDev/html-css-course-2022/blob/main/1-exercise-solutions/lesson-09/cat.jpg?raw=true">
+        <p class="profile_name">
+          Oliver
+        </p>
+      </div>
+      <div class="pic_grid">
+        <div class="div_friend_show">
+          <img class="friend_show" src="https://github.com/SuperSimpleDev/html-css-course-2022/blob/main/1-exercise-solutions/lesson-10/cat2.jpg?raw=true">
+        </div>
+        <div class="info">
+          <p class="frofile-friends">2 mutual friends</p>
+        </div>
+      </div>
+      <button class="add_friends">Add Friend</button>
+    </div>
+
+
+    <div class="profile">
+      <div>
+        <img class="profile_pic" src="https://github.com/SuperSimpleDev/html-css-course-2022/blob/main/1-exercise-solutions/lesson-09/cat.jpg?raw=true">
+        <p class="profile_name">
+          Oliver
+        </p>
+      </div>
+      <div class="pic_grid">
+        <div class="div_friend_show">
+          <img class="friend_show" src="https://github.com/SuperSimpleDev/html-css-course-2022/blob/main/1-exercise-solutions/lesson-10/cat2.jpg?raw=true">
+        </div>
+        <div class="info">
+          <p class="frofile-friends">2 mutual friends</p>
+        </div>
+      </div>
+      <button class="add_friends">Add Friend</button>
+    </div>
+  </div>
+  
+</body>
+</html>

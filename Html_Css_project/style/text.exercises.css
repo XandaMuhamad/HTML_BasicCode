@@ -1,0 +1,77 @@
+ .tahoma{
+      font-family: Tahoma;
+      font-weight: bold;
+      font-size: 30px;
+      margin-bottom: 35px; 
+    }
+    .Biggest{
+      font-family: Arial;
+      font-size: 30px;
+      font-weight: bold;
+      margin-bottom: 5px;
+      margin-top: 0px;
+      
+    }
+    span{
+     color: red;
+      font-family: Arial;
+      font-size: 22px;
+      margin-top: 0px;
+    
+    }
+  
+    .html{
+      font-family: verdana;
+      font-weight: bold;
+      font-size: 30px;
+      margin-bottom: 5px;
+      margin-top: 50px;
+     }
+     .biginner{
+      font-family: verdana;
+      font-size: 20px;
+      color: grey;
+      margin-top: 0px;
+     }
+     .well{
+      font-family: verdana;
+      font-size: 22px;
+      width: 400px;
+     }
+
+   .btn{
+    background-color: green;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border: none;
+    font-size: 20px;
+    border-radius: 4px;
+    font-family: Verdana;
+    margin-bottom: 20px;
+   }
+   
+   .last{
+    font-family: Arial;
+    font-size: 35px;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 20px;
+   }
+
+   .last1{
+    font-family: Arial;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+   }
+   .last_2{
+    font-family: Arial;
+    font-size: 19px;
+    color: blue;
+    text-align: center;
+    margin-top: 0px;
+   }

@@ -1,0 +1,45 @@
+
+    .Add{
+      background-color: rgb(255, 216, 20);
+      opacity: 0.9;
+    }
+    .Add:hover{
+      opacity: 1;
+    }
+    .Add:active{
+      opacity: 0.5
+    }
+
+    .buy{
+      background-color: rgb(255, 164, 28);
+      opacity: 0.9;
+    }
+    .buy:hover{
+      opacity: 1;
+    }
+    .buy:active{
+      opacity: 0.5;
+    }
+
+     button{
+      height: 36px;
+      width: 135px;
+      border-radius: 18px;
+      font-size: 15px;
+      font-weight: 450;
+      cursor: pointer;
+      border: none;
+      color: black;
+     }
+    a{
+      color: rgb(49, 90, 155);
+    }
+    a:hover{
+      color: red;
+    }
+
+   .stock{
+      color: rgb(0, 118, 0);
+    }
+
+  

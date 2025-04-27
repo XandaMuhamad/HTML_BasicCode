@@ -1,0 +1,120 @@
+
+  .request{
+    background-color: black;
+    color: white;
+    border: none;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+  .request:hover{
+    opacity: 0.7;
+  }
+  .request:active{
+    opacity: 0.5;
+  }
+  .Add{
+    background-color: rgb(255,216,20);
+    color: black;
+    border: none;
+    border-radius: 18px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 37px;
+    padding-right: 37px;
+    font-size: 12px;
+  }
+  .Add:hover{
+    background-color: rgb(245, 205, 3);
+  }
+  .Sign{
+    background-color: rgb(46, 164, 79);
+    color: white;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 14px;
+    padding-right: 14px;
+    border-radius: 4px;
+    font-weight: bold;
+    border: none;
+    transition: box-shadow 0.15s;
+  }
+  .Sign:hover{
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.20);
+  }
+  .get{
+    background-color: rgb(121, 82, 179);
+    color: white;
+    border-radius: 2px;
+    border: none;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  .get:hover{
+    background-color: rgb(99, 60, 156);
+  }
+
+  .Dow{
+    background-color:rgb(255, 255, 255);
+    color: rgb(108, 111, 125);
+    border-radius: 2px;
+    border: rgb(108, 111, 125);
+    border-style: solid;
+    border-width: 1px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-weight: bold;
+    font-size: 12px;
+    transition: background-color 0.15s,
+    color 0.15s;
+    
+  }
+  .Dow:hover{
+    background-color: rgb(108, 117, 125);
+    color: white;
+  }
+  .apply{
+    background-color: rgb(10, 102, 194);
+    color: white;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-left: 24px;
+    padding-right: 24px;
+    border: none;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 12px;
+  }
+  .apply:hover{
+    background-color: rgb(2, 70, 138);
+  }
+
+  .save{
+    background-color: white;
+    color:  rgb(10, 102, 194);
+    border-radius: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-color:rgb(10, 102, 194) ;
+    border-style: solid;
+    font-weight: bold;
+    border-width: 1px;
+    transition: background-color 0.15s;
+  }
+  .save:hover{
+    background-color:rgb(226, 240, 254);
+    border-width: 2px;
+  }
+  button{
+    cursor: pointer;
+    margin-bottom: 8px;
+  }

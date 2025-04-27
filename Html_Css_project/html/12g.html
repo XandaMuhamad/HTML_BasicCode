@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>flex</title>
+  <style>
+    .container{
+      width: 200px;
+    }
+  .flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .home{
+    margin-right: 60px;
+  }
+
+  .numbers{
+    background-color: rgb(27, 101, 191);
+    color: white;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 4px;
+    padding-left: 4px;
+    border-radius: 20px;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: Arial;
+    margin-top: 3px;
+  }
+  .cat_picture{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    margin-top: 15px;
+   
+  }
+  .all{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 250px;
+    
+  }
+  .info{
+    font-family: Arial;
+    margin-right: 70px;
+    margin-top: 0px;
+ 
+    
+  }
+  .start{
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 2px;
+  }
+  .middle ,.end{
+    margin-top: 0px;
+    margin-bottom: 4px;
+    color: rgb(96,96, 96);
+    font-size: 12px;
+  }
+  .follow{
+    background-color: rgb(26, 117, 202);
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 4px;
+    border: none;
+   margin-top: 15px;
+
+  }
+  .header{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(120, 82, 178);
+    height: 50px;
+    width: 550px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;}
+  
+  input{
+    
+    width: 300px;
+    height: 25px;
+    border-radius: 100px;
+    border: none;outline: none;
+    font-size: 14px;
+    padding-left: 15px;
+  
+  
+  }
+  .left_section{
+    color: white;
+    margin-left: 10px;
+  }
+  .down{
+    color: white;
+    background-color: rgb(120, 82, 178);
+    margin-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 4px;
+    border-color: white;
+    border-style: solid;
+    border-width: 1px;
+  }
+
+  
+  </style>
+
+</head>
+<body style="padding-bottom: 100px;">
+  <div class="container">
+    <div class="flexbox">
+      <div class="home">Home</div>
+      <div class="numbers">14</div>
+    </div>
+    <div class="container">
+      <div class="flexbox">
+        <div class="home">Notification</div>
+        <div class="numbers">3</div>
+      </div>
+      <div class="container">
+        <div class="flexbox">
+          <div class="home">Messages</div>
+          <div class="numbers">5</div>
+        </div>
+ 
+
+  <div class="all">
+    <div class="div_cat">
+      <img class="cat_picture" src="https://github.com/SuperSimpleDev/html-css-course-2022/blob/main/1-exercise-solutions/lesson-12/cat.jpg?raw=true">
+    </div>
+    <div class="info">
+      <p class="start">Mimi</p>
+      <p class="middle">Sleepy cat</p>
+      <p class="end">popular</p>
+    </div>
+    <div>
+      <button class="follow">Follow</button>
+    </div>
+  </div>
+
+  <div class="all">
+    <div class="div_cat">
+      <img class="cat_picture" src="https://github.com/SuperSimpleDev/html-css-course-2022/blob/main/1-exercise-solutions/lesson-12/cat.jpg?raw=true">
+    </div>
+    <div class="info">
+      <p class="start">Mimi</p>
+      <p class="middle">Sleepy cat</p>
+      <p class="end">popular</p>
+    </div>
+    <div>
+      <button class="follow">Follow</button>
+    </div>
+  </div>
+
+  <div class="all">
+    <div class="div_cat">
+      <img class="cat_picture" src="https://github.com/SuperSimpleDev/html-css-course-2022/blob/main/1-exercise-solutions/lesson-12/cat.jpg?raw=true">
+    </div>
+    <div class="info">
+      <p class="start">Mimi</p>
+      <p class="middle">Sleepy cat</p>
+      <p class="end">popular</p>
+    </div>
+    <div>
+      <button class="follow">Follow</button>
+    </div>
+  </div>
+<br>
+<div class="header">
+  <div class="left_section">Home</div>
+  <div class="middle_section">
+    <input type="text" placeholder="Search">
+  </div>
+  <div class="right_section">
+    <button class="down">Download</button>
+  </div>
+</div>
+
+
+
+
+  
+</body>
+</html>

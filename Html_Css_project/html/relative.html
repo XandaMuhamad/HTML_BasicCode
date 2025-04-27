@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .container{
+      position: relative;
+      display: inline-block;
+      margin-right: 24px;
+    }
+    .discount{
+      position: absolute;
+      right:0;
+      top: 15px;
+      background-color: black;
+      color: white;
+      padding-left: 22px;
+      padding-right: 22px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      font-size: 22px;
+      
+    }
+    
+    .backg{
+      position: absolute;
+      bottom: 0;
+      z-index: 100;
+      height: 115px;
+      width: 300px;
+      background-color: rgb(240, 240, 240);
+      opacity: 0.9;
+      
+    }
+    img{
+      width: 300px;
+      object-fit: cover;
+    }
+    button{
+      padding-left: 22px;
+      padding-right: 22px;
+      padding-top: 8px;
+      padding-bottom: 8px;
+      margin-top: 38px;
+      margin-left: 70px;
+      background-color: white;
+      color: black;
+      font-weight: 520;
+      font-size: 18px;
+      opacity: 1;
+      
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="https://github.com/SuperSimpleDev/html-css-course-2022/blob/main/1-exercise-solutions/lesson-15/shirt.jpg?raw=true">
+    <div class="discount">
+     20% OFF
+    </div>
+  </div>
+
+  <div class="container">
+    <img src=" https://github.com/SuperSimpleDev/html-css-course-2022/blob/main/1-exercise-solutions/lesson-15/shirt.jpg?raw=true">
+    <div class="discount">
+      20% OFF
+     </div>
+    <div class="backg">
+      <button>Add to Cart</button>
+    </div>
+   
+  </div>
+</body>
+</html>

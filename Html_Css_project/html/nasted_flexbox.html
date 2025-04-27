@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nasted_flexbox</title>
+  <style>
+    .all{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      border: 1px;
+      width: 600px;
+      height: 120px;
+      margin-left: 10px;
+      padding-left: 15px;
+      box-shadow:  inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+    }
+    .cat_pic{
+      width: 70px;
+      height: 70px;
+      border-radius: 35px;
+      margin-top: 25px;
+      margin-right: 10px;
+      display: flex;
+      flex-direction: row;
+    }
+    .left_section{
+      display: flex;
+      align-items: center;
+ 
+      
+    }
+    .middle_section{
+      font-family: Arial;
+     flex: 1;
+      margin: 0;
+      padding: 0;
+    }
+    .p1{
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 22px;
+      margin-bottom: 0px;
+
+     
+    }
+    .p2{
+      margin-top: 5px;
+      margin-bottom: 0px;
+      font-size: 20px;
+      font-weight: bold;
+    }
+    .p3{
+      margin-top: 5px;
+      margin-bottom: 0px;
+      font-size: 20px;
+      color: grey;
+   
+    }
+    .right_section{
+      color: grey;
+      display: flex;
+      align-items: center;
+      flex-direction: row;
+    }
+    .box{
+      display: flex;
+      flex-direction: row;
+      color: grey;
+      margin-top: 15px;
+      margin-left: 15px;
+      font-family: Arial;
+      font-size: 16px;
+     
+    }
+  </style>
+</head>
+<body>
+  <p class="box">All INBOXES</p>
+ <div class="all">
+   <div class="left_section">
+     <div class="picture">
+      <img class="cat_pic" src="https://github.com/SuperSimpleDev/html-css-course-2022/blob/main/1-exercise-solutions/lesson-12/cat.jpg?raw=true">
+     </div>
+    </div>
+
+     <div class="middle_section">
+      <p class="p1">Chewy Promotions </p>
+      <p class="p2">Biggest Sales of the Year!</p>
+      <p class="p3">Hey there! We're writing to tell you about our..</p>
+     </div>
+   <div class="right_section">
+    <p class="p4">4:58PM</p>
+   </div>
+  </div>
+  <div class="all">
+    <div class="left_section">
+      <div class="picture">
+       <img class="cat_pic" src="https://github.com/SuperSimpleDev/html-css-course-2022/blob/main/1-exercise-solutions/lesson-13/cat2.jpg?raw=true">
+      </div>
+    </div>
+
+      <div class="middle_section">
+       <p class="p1">Best Buy</p>
+       <p class="p2"> Your Best Buy eReceipt</p>
+       <p class="p3">Thank you for shopping at Best Buy, here is ..</p>
+      </div>
+    <div class="right_section">
+     <p class="p4">12:32PM</p>
+    </div>
+   </div>
+
+   <div class="all">
+    <div class="left_section">
+      <div class="picture">
+       <img class="cat_pic" src="https://github.com/SuperSimpleDev/html-css-course-2022/blob/main/1-exercise-solutions/lesson-13/dog.jpg?raw=true">
+      </div>
+      </div>
+      <div class="middle_section">
+       <p class="p1">Netflix </p>
+       <p class="p2">Here's what's coming to Netflix</p>
+       <p class="p3">Brand new movies and shows, old favorites...</p>
+      </div>
+  
+    <div class="right_section">
+     <p class="p4">9:00AM</p>
+    </div>
+   </div>
+</body>
+</html>
